@@ -7,11 +7,12 @@ and open the template in the editor.
 <html>
     <head>
         <meta charset="UTF-8">
-        <title></title>
+        <title>Vitamap</title>
     </head>
     <body>
         <?php
-        echo "This is and Example!!"
+        $vitamap=file_get_contents('https://in.linkedin.com/company/vitamap-software-solutions-private-limited');
+        echo $vitamap;
         ?>
     </body>
 </html>
